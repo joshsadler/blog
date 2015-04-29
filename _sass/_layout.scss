@@ -1,0 +1,228 @@
+/**
+ * Site header
+ */
+.site-header {
+    min-height: 110px;
+    font-family: sans-serif; // prevent the font loading shift
+    .wrapper {
+        border-bottom: 1px solid rgba($grey-color-light, 0.2);
+        // Positioning context for the mobile navigation icon
+        position: relative;
+    }
+}
+
+.site-title {
+    margin-top: 45px;
+    margin-bottom: 35px;
+    float: left;
+    transition: color .2s ease-out;
+    svg {
+        width: 110px;
+        height: 22px;
+        fill: currentColor;
+    }
+    &,
+    &:hover {
+        color: $grey-color-dark;
+    }
+}
+
+.site-nav {
+    float: right;
+    margin-top: 30px;
+    line-height: 56px;
+    font-family: $alt-font-family;
+    font-size: 14px;
+    text-transform: lowercase;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $grey-color-light;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 48px;
+        }
+    }
+
+    @media (max-width: $on-palm) {
+        position: absolute;
+        top: 9px;
+        right: 0;
+        background-color: $background-color;
+        border: 1px solid rgba($grey-color-light, 0.2);
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
+    }
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    .wrapper {
+        border-top: 1px solid rgba($grey-color-light, 0.2);
+        padding: $spacing-unit 0;
+        font-family: $alt-font-family;
+        font-size: 14px;
+    }
+}
+
+/**
+ * Home page
+ */
+.wow {
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba($grey-color-light, 0.2);
+    margin-bottom: 64px;
+}
+.wow-heading {
+    font-size: 43px;
+    color: $grey-color-dark;
+    line-height: 1.1;
+    margin-bottom: 42px;
+}
+.fancy {
+    color: #f15a24;
+}
+// Chrome & Safari hack
+.fancy:not(*:root) {
+    background: -webkit-linear-gradient(45deg, #f15a24, #ed1e79);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.wow-copy {
+    font-size: 16px;
+    font-family: $alt-font-family;
+    max-width: 545px;
+}
+.section-title {
+    font-family: $alt-font-family;
+    font-weight: 500;
+    font-size: 20px;
+    color: #b763d6;
+}
+
+
+/**
+ * Page content
+ */
+
+ .posts {
+    h2 {
+        margin-bottom: 0;
+    }
+ }
+ .posts,
+ .post {
+    max-width: $content-width;
+    line-height: 1.6;
+ }
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-meta {
+    display: block;
+    font-size: 16px;
+    font-family: $alt-font-family;
+    color: $grey-color-light;
+    margin-bottom: 24px;
+    font-weight: 300;
+}
+
+.post-link,
+.post-title {
+    display: block;
+    font-size: 30px;
+    line-height: 1.2;
+    color: $grey-color-dark;
+    text-rendering: optimizeLegibility;
+}
+
+ul {
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0;
+    }
+}
+
+article {
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba($grey-color-light, 0.2);
+    margin-bottom: 48px;
+    font-weight: 400;
+}
+article:last-child {
+    border-bottom: 0;
+}
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+}

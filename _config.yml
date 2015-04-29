@@ -1,0 +1,20 @@
+# Site settings
+title: Josh Sadler
+email: joshsadler@me.com
+description: Home of the famous Josh Sadler
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://joshsadler.com" # the base hostname & protocol for your site
+twitter_username: joshsadler
+github_username:  joshsadler
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: :compressed
+
+permalink: pretty
+paginate: 5
+
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
