@@ -2,8 +2,8 @@
 title: Josh Sadler
 email: joshsadler@me.com
 description: Home of the famous Josh Sadler
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://joshsadler.com" # the base hostname & protocol for your site
+baseurl: ""
+url: "http://joshsadler.herokuapp.com"
 twitter_username: joshsadler
 github_username:  joshsadler
 
