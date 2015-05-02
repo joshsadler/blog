@@ -1,0 +1,10 @@
+{% if page.tags.size > 0 %}
+	<aside class="share-sheet" role="complementary">
+		<h5>Tagged in</h5>
+		<div class="tags">
+		{% for tag in page.tags %}
+			<div class="tag">{{tag}}</div>
+		{% endfor %}
+		</div>
+	</aside>
+{% endif %}

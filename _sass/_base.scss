@@ -42,6 +42,7 @@ dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+
 p, ul, ol {
     margin-bottom: 24px;
 }
@@ -97,6 +98,14 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     color: $grey-color-dark;
+}
+
+h5 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #999;
+    letter-spacing: .02em;
+    margin-bottom: 6px;
 }
 
 

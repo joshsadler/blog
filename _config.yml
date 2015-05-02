@@ -1,9 +1,9 @@
 # Site settings
 title: Josh Sadler
 email: joshsadler@me.com
-description: Home of the famous Josh Sadler
+description: "UX designer at Fintech company, Jack Henry & Associates, living in Cedar Falls, Iowa."
 baseurl: ""
-url: "http://joshsadler.herokuapp.com"
+url: "http://www.joshsadler.co"
 twitter_username: joshsadler
 github_username:  joshsadler
 

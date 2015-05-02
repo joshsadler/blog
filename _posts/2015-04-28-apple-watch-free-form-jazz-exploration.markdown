@@ -3,6 +3,9 @@ layout: post
 title:  "Apple Watch: free-form jazz exploration
 in front of a festival crowd"
 date:   2015-04-28 20:14:00
+tags:
+- apple
+- wearables
 comments: true
 ---
 
