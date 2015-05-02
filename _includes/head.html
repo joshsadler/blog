@@ -19,7 +19,7 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="Josh Sadler">
   <link rel="author" href="https://plus.google.com/111272566057491206818">
-  {% if page.is_post %}
+  {% if page.path contains '_posts' %}
   <meta name="title" content="{{ page.title }}">
   <meta property="og:site_name" content="Josh Sadler">
   <meta property="og:title" content="{{ page.title }}">
