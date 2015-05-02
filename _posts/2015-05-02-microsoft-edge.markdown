@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Microsoft Edge: so stinkin' smart"
+title:  "Microsoft Edge: so stinkin’ smart"
 date:   2015-05-02 13:00:00
 tags:
 - microsoft
