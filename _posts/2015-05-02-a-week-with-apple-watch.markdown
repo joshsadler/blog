@@ -6,6 +6,7 @@ tags:
 - apple
 - wearables
 comments: true
+share_image: /assets/apple-watch-home.jpg
 ---
 
 My first impression after opening the box containing my 38mm Apple Watch Sport was, "damn, it's way too small." There are no Apple Stores nearby so I didn't try the new wearable before I made my order but assumed that because I have slender wrists the smaller model would be perfect. Long story short I was right, but I had serious doubts when I first took it out of the box. After a few hours of it strapped on my wrist I was reassured that the 42mm would have been too large for me.

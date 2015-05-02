@@ -7,6 +7,7 @@ tags:
 - microsoft edge
 - web
 comments: true
+share_image: "/assets/microsoft-edge-logo.jpg"
 ---
 
 It's clear to me that the old Microsoft is dead and gone. Since Satya Nadella became CEO in early 2014 he's been on a mission to make Microsoft matter again to consumers and businesses and they're getting there by focusing on developers first.

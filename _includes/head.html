@@ -24,9 +24,12 @@
   <meta property="og:site_name" content="Josh Sadler">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:url" content="{{ page.url | prepend: site.url }}">
-  <meta property="twitter:creator" content="@joshsadler">
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:site" content="@joshsadler">
   <meta property="twitter:title" content="{{ page.title }}">
+  <meta property="twitter:description" content="View the article on joshsadler.co">
   <meta property="twitter:url" content="{{ page.url | prepend: site.url }}">
+  {% if page.share_image %}<meta property="twitter:description" content="{{ page.share_image | prepend: site.url }}">{% endif %}
   {% endif %}
   <meta name="theme-color" content="#ed1e79">
 
