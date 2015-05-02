@@ -18,3 +18,11 @@ paginate: 5
 
 gems: ['kramdown']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+
+defaults:
+	-
+		scope:
+			path: ""
+			type: posts
+		values:
+			is_post: true

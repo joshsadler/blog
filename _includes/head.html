@@ -1,10 +1,34 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//use.typekit.net">
+  <link rel="dns-prefetch" href="//p.typekit.net">
+  <link rel="dns-prefetch" href="//google-analytics.com">
+  <link rel="dns-prefetch" href="//www.google-analytics.com">
+  {% if page.comments %}
+  <link rel="dns-prefetch" href="//joshsadler.disqus.com">
+  <link rel="dns-prefetch" href="//a.disquscdn.com">
+  <link rel="dns-prefetch" href="//disqus.com">
+  {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="Josh Sadler">
+  <link rel="author" href="https://plus.google.com/111272566057491206818">
+  {% if page.is_post %}
+  <meta name="title" content="{{ page.title }}">
+  <meta property="og:site_name" content="Josh Sadler">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+  <meta property="twitter:creator" content="@{{ site.twitter_usename }}">
+  <meta property="twitter:title" content="{{ page.title }}">
+  <meta property="twitter:url" content="{{ page.url | prepend: site.url }}">
+  {% endif %}
+  <meta name="theme-color" content="#ed1e79">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -16,7 +40,6 @@
         classes: false,
         events: false
      };
-
      (function(d) {
         var wf = d.createElement('script'), s = d.scripts[0];
         wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
