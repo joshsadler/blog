@@ -29,7 +29,7 @@
   <meta property="twitter:title" content="{{ page.title }}">
   <meta property="twitter:description" content="View the article on joshsadler.co">
   <meta property="twitter:url" content="{{ page.url | prepend: site.url }}">
-  {% if page.share_image %}<meta property="twitter:description" content="{{ page.share_image | prepend: site.url }}">{% endif %}
+  {% if page.share_image %}<meta property="twitter:image" content="{{ page.share_image | prepend: site.url }}">{% endif %}
   {% endif %}
   <meta name="theme-color" content="#ed1e79">
 
