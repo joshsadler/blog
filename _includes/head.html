@@ -21,16 +21,14 @@
   <link rel="author" href="https://plus.google.com/111272566057491206818">
   {% if page.path contains '_posts' %}
   <meta name="title" content="{{ page.title }}">
+  <meta property="og:type" content="website">
   <meta property="og:site_name" content="Josh Sadler">
   <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 300 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.url }}">
-  <meta property="twitter:card" content="summary">
-  <meta property="twitter:site" content="@joshsadler">
-  <meta property="twitter:title" content="{{ page.title }}">
-  <meta property="twitter:description" content="View the article on joshsadler.co">
-  <meta property="twitter:url" content="{{ page.url | prepend: site.url }}">
-  {% if page.share_image %}<meta property="twitter:image" content="{{ page.share_image | prepend: site.url }}">
-  <meta property="og:image" content="{{ page.share_image | prepend: site.url }}">{% endif %}
+  {% if page.share_image %}<meta property="og:image" content="{{ page.share_image | prepend: site.url }}">{% endif %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@joshsadler">
   {% endif %}
   <meta name="theme-color" content="#ed1e79">
 
