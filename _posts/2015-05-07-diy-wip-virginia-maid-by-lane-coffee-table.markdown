@@ -57,7 +57,7 @@ The first picture is how it started. Cute. The second is after I applied the fir
     </figure>
 </div>
 
-I used my new random orbital sander to take it down to the barewood. I was timid using it at first because a: I'd never used one before and 2: I read that the wood veneers are super thin and it's easy to sand right there them.
+I used my new random orbital sander to take it down to the barewood. I was timid using it at first because a: I'd never used one before and 2: I read that the wood veneers are super thin and it's easy to sand right through them.
 
 I made it work, I built some courage and got after it. The toughest part is the edges of the table but it worked out.
 
