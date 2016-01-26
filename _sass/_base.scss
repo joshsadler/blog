@@ -54,6 +54,7 @@ p, ul, ol {
  */
 img {
     max-width: 100%;
+    height: auto;
     vertical-align: middle;
 }
 
@@ -80,7 +81,7 @@ ul, ol {
 }
 
 ul {
-    list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="24" height="12"><rect x="1.8" y="1.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.4853 6)" fill="#B763D6" width="8.5" height="8.5"/></svg>');
+    list-style-type: square;
 }
 
 li {

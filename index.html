@@ -11,25 +11,31 @@ layout: default
       who codes.
     </h1>
 
-    <p class="wow-copy">I’m a product designer at Jack Henry &amp; Associates. I plan, design, and engineer software for banks to provide better experiences for their members.</p>
+    <p class="wow-copy">I’m a product designer at <a href="https://banno.com" rel="nofollow">Jack Henry &amp; Associates</a>. I plan, design, and engineer software for banks to provide better experiences for their members.</p>
   </div>
 </div>
 
-<div class="posts">
-  <h1 class="section-title">on my mind</h1>
-  {% for post in site.posts %}
-    <article>
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="clearfix">
+  <div class="posts home-left">
+    <h1 class="section-title">on my mind</h1>
+    {% for post in site.posts %}
+      <article>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-      {{ post.content | strip_html | truncatewords: 40 }}
+        {{ post.content | strip_html | truncatewords: 40 }}
 
-      <p class="continue">
-        <a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
-        {% include read-time.html %}
-      </p>
-    </article>
-  {% endfor %}
+        <p class="continue">
+          <a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
+          {% include read-time.html %}
+        </p>
+      </article>
+    {% endfor %}
+  </div>
+
+  <aside class="sidebar" role="complementary">
+    <h3 class="section-title">pixels pushed</h3>
+  </aside>
 </div>

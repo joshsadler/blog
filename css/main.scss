@@ -1,5 +1,4 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
 
@@ -8,25 +7,25 @@
 // Our variables
 $base-font-family: "adelle", Georgia, "Times New Roman", serif;
 $base-font-size:   16px;
-$alt-font-family:  "Roboto", "Helvetica Neue", sans-serif;
+$alt-font-family:  -apple-system, BlinkMacSystemFont ,"Roboto", "Helvetica Neue", sans-serif;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.6;
 
 $spacing-unit:     30px;
 
 $text-color:       #5c5c5c;
 $background-color: #fff;
-$brand-color:      #ed1e79;
+$brand-color:      #67bd48;
 
 $grey-color:       #808080;
 $grey-color-light: #999;
 $grey-color-dark:  #333;
 
 // Width of site
-$wrapper-width:    1050px;
+$wrapper-width:    1170px;
 
 // Width of the content area
-$content-width:    600px;
+$content-width:    700px;
 
 $on-palm:          568px;
 $on-laptop:        940px;
